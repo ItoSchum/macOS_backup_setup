@@ -23,4 +23,5 @@ ls -1 /Applications | sed 's/\.app//g' > ~/Library/Mobile\ Documents/com~apple~C
 
 # nonMAS Apps
 /usr/local/bin/mas list | cut -d " " -f 2  > ~/Library/Mobile\ Documents/com~apple~CloudDocs/AppList/MAS_AppList_Brief
+
 comm -23 /Users/itoshen/Library/Mobile\ Documents/com~apple~CloudDocs/AppList/All_AppList /Users/itoshen/Library/Mobile\ Documents/com~apple~CloudDocs/AppList/MAS_AppList_Brief > /Users/itoshen/Library/Mobile\ Documents/com~apple~CloudDocs/AppList/nonMAS_AppList

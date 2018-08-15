@@ -11,7 +11,7 @@ echo "Confirmed"
 # 进入 iCloud 中的 AppList 文件夹
 myPath=`~/Library/Mobile\ Documents/com\~apple\~CloudDocs/AppList`
 cd $myPath
-echo $myPath
+echo "current dir: $myPath" 
 
 # 安装 Homebrew 和 MAS
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -30,6 +30,9 @@ echo "brew cask install $(cat ./BrewCask_AppList | tr '\n' ' ')" >> ~/Desktop/Ap
 chmod +x ~/Desktop/AppInstaller
 ~/Desktop/AppInstaller
 
+
+cd ~ 
+echo "current dir `pwd`"
 
 # bash
 
@@ -155,6 +158,7 @@ cat > /usr/local/opt/polipo/homebrew.mxcl.polipo.plist <<EOF
   </dict>
 </plist>
 EOF
+
 #sed -i '13 <string>socksParentProxy=localhost:1086</string>' /usr/local/opt/polipo/homebrew.mxcl.polipo.plist
 
 launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
