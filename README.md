@@ -21,7 +21,9 @@
 	- `nonMAS_AppList`: `All_AppList` subtract `MAS_AppList`
 
 ### Setup
-> The Item with * indicates it's not certainly usable.
+> About The Item with * indicates: It's not certainly usable.
+
+> About Mac App Store App Installation: If you once use multiple Apple ID accounts in Mac App Store, it will only back up one particular account's downloads.
 
 - **App Install**: Mac App Store, Homebrew, Homebrew Cask
 - `Bash`: `~/.bash_profile`
