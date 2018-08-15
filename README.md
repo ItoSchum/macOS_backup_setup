@@ -43,7 +43,7 @@
 	- **`Bash`:** `~/.bash_profile`
 	- **`Zsh`:** `~/.zshrc`
 	- **`Vim`:** `~/.vimrc`
-	- **`Tumx`*****:** `~/tmux.conf`, Plug-ins (Need additional manual OPs: `Prefix + I`)
+	- **`Tumx`*****:** `~/tmux.conf`, Plug-Ins (Need additional manual OPs: `Prefix + I`)
 	- **`Pyenv`*****:** Pyenv Applist Install
 	- **`SSH`:** `~/.ssh/`
 	- **Touch ID** * **:** `/etc/pam.d/sudo` modification (Only suitable for Macs with Touch ID)
