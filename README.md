@@ -46,7 +46,7 @@
 	- **`Tumx`*****:** `~/tmux.conf`, Plug-ins (Need additional manual OPs: `Prefix + I`)
 	- **`Pyenv`*****:** Pyenv Applist Install
 	- **`SSH`:** `~/.ssh/`
-	- **Touch ID*****:** `/etc/pam.d/sudo` modification (Only suitable for Macs with Touch ID)
+	- **Touch ID** * **:** `/etc/pam.d/sudo` modification (Only suitable for Macs with Touch ID)
 	- **System Preference:** `sudo spctl --master-disable` to Allow Apps Downloaded from Anywhere
 	- **Preview Plug-In:**
 		- qlcolorcode 
