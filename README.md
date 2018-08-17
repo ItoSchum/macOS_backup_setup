@@ -35,7 +35,7 @@
 
 - **Tutorial:**
 	1. `Enter the Source Username:` Displayed: Input the `[source_username]` of the old Mac.  
-	2. `Enter the Source source_IP_address:` Displayed: Input the `[source-_IP_address]` of the old Mac which should have connected to the same LAN as your new Mac does.  
+	2. `Enter the Source source_IP_address:` Displayed: Input the `[source_IP_address]` of the old Mac which should have connected to the same LAN as your new Mac does.  
 	3. `Confirmed` Displayed: The script will finish the rest tasks automatically.
 
 - **Reference:**
@@ -43,7 +43,7 @@
 	- **`Bash`:** `~/.bash_profile`
 	- **`Zsh`:** `~/.zshrc`
 	- **`Vim`:** `~/.vimrc`
-	- **`Tumx`*****:** `~/tmux.conf`, Plug-ins (Need additional manual OPs: `Prefix + I`)
+	- **`Tumx`*****:** `~/tmux.conf`, Plug-Ins (Need additional manual OPs: `Prefix + I`)
 	- **`Pyenv`*****:** Pyenv Applist Install
 	- **`SSH`:** `~/.ssh/`
 	- **Touch ID** * **:** `/etc/pam.d/sudo` modification (Only suitable for Macs with Touch ID)
